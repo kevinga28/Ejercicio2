@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans';
+}
+header{
+    background-color: #252850;
+    text-align: center;
+    padding: 25px 0;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: black;
+    color: plum;
+    
+}
+div{
+    background-image: url(Imag/Fondo.jpg);
+    height:1000px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+div p{
+    font-size: 40px;
+}
+div h1{
+    font-size: 80px;
+    padding: 20px 0;
+}
+nav {
+    text-align: right;
+}

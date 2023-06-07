@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans'
+}
+header{
+    background-color: #252850;
+    text-align: center;
+    padding: 25px 0;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: black;
+    color: plum;
+}
+h1{
+   
+    text-align: center;
+    padding: 25px 0;
+}
+aside{
+    
+    width:10%;
+    height:100%;
+    padding-right:-20px;
+    float:left;
+    font-style:italic;
+    background-color:#8F3D38;
+}
+figure{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    margin-right: 20px;
+}
+figure div{
+    
+  display: flex;
+  flex-direction: colum;
+  align-items: center;
+  margin-right: 20px;
+
+}
+div a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+  margin-bottom: 10px;
+}
+div a:hover{
+    background-color: black;
+    color: plum;
+}
+
+html{
+    background-color: #820721;
+
+}
+section{
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+    margin-right: 20px;
+    
+}
+
+nav {
+    text-align: right;
+}
